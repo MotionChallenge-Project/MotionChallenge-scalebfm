@@ -1,0 +1,53 @@
+{
+  "id": "scalebfm-g1-development-v1",
+  "entrypoint": "adapter:create",
+  "control_period_s": 0.02,
+  "reference_step_s": 0.02,
+  "reference_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "reference_offsets_s": [
+    0.0,
+    0.02,
+    0.04,
+    0.06,
+    0.08,
+    0.1
+  ],
+  "reference_history_s": 0,
+  "reference_preview_s": 0.1,
+  "state_access": "privileged-state-v0",
+  "action_mode": "joint-pd-feedforward",
+  "inference_config": "policy.json",
+  "inference_config_sha256": "657d4214c73345e6716a55eb489e856725c6f2ccb8712b079aa54cd65a6d3065",
+  "weights": "checkpoints/policy.onnx",
+  "weights_sha256": "19628312a3fc6ff4c7f9e5ced5ec0739edef28fe52449d0127c1f9cc7eb6b25d",
+  "virtual_bodies": {
+    "left_toe_link": {
+      "parent": "left_ankle_roll_link",
+      "position_parent_m": [
+        0.1,
+        0.0,
+        -0.02
+      ]
+    },
+    "right_toe_link": {
+      "parent": "right_ankle_roll_link",
+      "position_parent_m": [
+        0.1,
+        0.0,
+        -0.02
+      ]
+    }
+  },
+  "provenance_status": "author-inference review in progress",
+  "official": false,
+  "source_repository": "https://github.com/zengweishuai/ScaleBFM",
+  "source_commit": "abd6f17c02fe0baabc14709feb8d9ea4959aa621",
+  "weights_url": "https://drive.usercontent.google.com/download?id=1SkwI11KeKQm0res-x6Ty9cOUaTxkLWlz&export=download"
+}
