@@ -8,5 +8,17 @@
   "author_inference_review": "pending",
   "benchmark_physics": "shared G1 canonical profile, not the author training simulator",
   "legacy_results": "not transferable to this adapter revision without rerunning",
-  "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms"
+  "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms",
+  "checkpoint_origin": {
+    "author_release_url": "https://github.com/zengweishuai/ScaleBFM/blob/abd6f17c02fe0baabc14709feb8d9ea4959aa621/README.md",
+    "author_release_label": "zengweishuai/ScaleBFM",
+    "kind": "third_party_export",
+    "kind_label": "Third-party export; equivalence not established",
+    "artifact_page_url": "https://drive.google.com/file/d/1SkwI11KeKQm0res-x6Ty9cOUaTxkLWlz/view",
+    "original_filename": "policy.onnx (converted deployment artifact)",
+    "verification": "This adapter uses an ONNX export from a shared deployment archive. The upstream project link alone does not authenticate this converted file; the original-to-export conversion and equivalence evidence are not yet complete. Results are withheld.",
+    "download_url": "https://drive.usercontent.google.com/download?id=1SkwI11KeKQm0res-x6Ty9cOUaTxkLWlz&export=download",
+    "sha256": "19628312a3fc6ff4c7f9e5ced5ec0739edef28fe52449d0127c1f9cc7eb6b25d",
+    "original_author_artifacts_url": "https://huggingface.co/WeishuaiZeng/ScaleBFM"
+  }
 }

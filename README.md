@@ -26,3 +26,9 @@ download and evaluation progress updates every 5 seconds.
 
 Run all frames after tracking failure: `uv run evaluate.py --termination none`.
 This records full-motion errors under a separate protocol; success still requires no failure.
+
+## Checkpoint source
+
+[zengweishuai/ScaleBFM](https://github.com/zengweishuai/ScaleBFM/blob/abd6f17c02fe0baabc14709feb8d9ea4959aa621/README.md) · [policy.onnx (converted deployment artifact)](https://drive.google.com/file/d/1SkwI11KeKQm0res-x6Ty9cOUaTxkLWlz/view). Third-party export; equivalence not established.
+
+This adapter uses an ONNX export from a shared deployment archive. The upstream project link alone does not authenticate this converted file; the original-to-export conversion and equivalence evidence are not yet complete. Results are withheld.
