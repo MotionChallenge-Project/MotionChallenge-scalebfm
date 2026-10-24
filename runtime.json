@@ -21,7 +21,7 @@
   ],
   "reference_history_s": 0,
   "reference_preview_s": 0.1,
-  "state_access": "privileged-state-v0",
+  "state_access": "ideal-proprioceptive-no-position-v1",
   "action_mode": "joint-pd-feedforward",
   "inference_config": "policy.json",
   "inference_config_sha256": "657d4214c73345e6716a55eb489e856725c6f2ccb8712b079aa54cd65a6d3065",
@@ -49,5 +49,9 @@
   "official": false,
   "source_repository": "https://github.com/zengweishuai/ScaleBFM",
   "source_commit": "abd6f17c02fe0baabc14709feb8d9ea4959aa621",
-  "weights_url": "https://drive.usercontent.google.com/download?id=1SkwI11KeKQm0res-x6Ty9cOUaTxkLWlz&export=download"
+  "weights_url": "https://drive.usercontent.google.com/download?id=1SkwI11KeKQm0res-x6Ty9cOUaTxkLWlz&export=download",
+  "observation_contract": {
+    "admission_record": "admission.json",
+    "admission_sha256": "c810f2b9fd5380efcf54864d1234df4ec572c50750d467c978d2e6724bc066b2"
+  }
 }
