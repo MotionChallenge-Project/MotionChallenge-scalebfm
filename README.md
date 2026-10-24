@@ -15,7 +15,7 @@ Reuses local `checkpoints/policy.onnx` or the external cache; missing artifacts 
 fetched and hash-checked. Use `--weights PATH --data PATH --offline` for local files.
 Results and traces are written outside Git. `--help` lists options.
 
-The root `motion-challenge` submodule owns data, physics, metrics and verification.
+The root `MotionChallenge-Core` submodule owns data, physics, metrics and verification.
 This repository only adapts model inference; no `sim2real` dependency.
 
 [Provenance](provenance.json)
