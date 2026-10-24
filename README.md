@@ -1,12 +1,12 @@
-# Motion Challenge · scalebfm
+# MotionChallenge · scalebfm
 
 [scalebfm](https://github.com/zengweishuai/ScaleBFM) checkpoint adapter. G1 29DoF; LAFAN40 is the first suite.
 
 ## Install and run
 
 ```sh
-git clone --recurse-submodules https://github.com/MotionChallenge-Project/motion-challenge-scalebfm.git
-cd motion-challenge-scalebfm
+git clone --recurse-submodules https://github.com/MotionChallenge-Project/MotionChallenge-scalebfm.git
+cd MotionChallenge-scalebfm
 uv sync
 uv run evaluate.py
 ```
