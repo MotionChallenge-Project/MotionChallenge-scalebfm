@@ -5,7 +5,7 @@
 ## Install and run
 
 ```sh
-git clone --recurse-submodules https://github.com/motion-challenge-project/motion-challenge-scalebfm.git
+git clone --recurse-submodules https://github.com/MotionChallenge-Project/motion-challenge-scalebfm.git
 cd motion-challenge-scalebfm
 uv sync
 uv run evaluate.py
